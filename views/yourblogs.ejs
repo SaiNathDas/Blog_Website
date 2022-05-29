@@ -1,0 +1,63 @@
+<%- include("partials/header1"); -%>
+
+<section class="blog-posts grid-system grid-system1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="all-blog-posts">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="sidebar-item submit-comment">
+                <div class="sidebar-heading heading1">
+                  <h2>Your Blogs</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%  posts.forEach(function(post){ %>
+<section class="blog-posts grid-system">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="all-blog-posts">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="blog-post">
+                <div class="down-content">
+                    <a href="/<%=post._id%>"><h4><%= post.title %></h4></a>
+                    <ul class="post-info">
+                      <li>Posted By- <%= post.name %></li>
+                      <li><%= post.date.toDateString() %></li>
+                    </ul>
+                    <p>
+                      <%= post.content.substring(0,250) + " ..." %>
+                      <a href="/<%=post._id%>">Read More</a>
+                    </p>
+                    <div class="post-options">
+                      <div class="row">
+                        <div class="col-6">
+                          <ul class="post-tags">
+                            <li><i class="fa fa-tags"></i></li>
+                            <li><%= post.tags %></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<% }) %>
+
+<%- include("partials/footer"); -%>
