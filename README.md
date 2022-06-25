@@ -1,6 +1,6 @@
 # Bloggers Spot
 
-Bloggers Spot is a blogging website that allows users to create blog posts and read other's blog postsas well. 
+Bloggers Spot is a blogging website that allows users to create blog posts and read other's blog posts as well. 
 
 ## Features
 
