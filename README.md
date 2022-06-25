@@ -6,6 +6,7 @@ Bloggers Spot is a blogging website that allows users to create blog posts and r
 
 - Blogs are categorised by hashtags
 - Login / Signup 
+- Shows Recent posts column 
 - Authenticated users can only login else they will prompted to login
 - Use HTML tags when writing a new post
 
