@@ -30,6 +30,8 @@ A number of technologies have been used in this project:
 
 ![image](https://user-images.githubusercontent.com/92449243/175773018-768356ba-70ab-40a2-a47b-32086e2bdb66.png)
 
+> Blog Details
+
 ![image](https://user-images.githubusercontent.com/92449243/175773028-58f29c95-b914-4add-995d-885358d37142.png)
 
 ![image](https://user-images.githubusercontent.com/92449243/175773043-2dcee3e5-f4f5-4ee4-b13d-3f7d3024cd7b.png)
